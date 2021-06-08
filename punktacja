@@ -1,0 +1,31 @@
+(Wszystko)
+
+
+(max. 100% bazy projektu) Od strony kodu ocenie podlega:
+	[+50% bazy] - odpowiedni podział projektu celem zastosowania obiektowości TS i jej stosowanie wraz z typowaniem => tematyka lekcji 1
+	[+20% bazy] - patrz wszystkie wytyczne "TS" z lekcji 2 (interfejsy, zasięgi, modyfikatory, static)
+	[+20% bazy] - użycie jakiegokolwiek module loader'a (np. webpack'a) celem stosowania w projekcie modułów (podział projektu na kilka plików ts)
+		samo zastosowanie modułów w przeglądarce bez loder'a to za mało
+	[+10% bazy] - wykorzystanie co najmniej jednego z poniższych dekoratorów:
+		a) dekorator klasy
+		b) dekorator metody z/bez przesłanymi do niej danymi
+		c) dekorator właściwości
+
+Od strony działania ocenie podlega:
+	lekcja 1: 
+		- [3p] dowlony działający algorytm PathFinding'u
+	lekcja 2: 
+		- [0.5p] zrealizowanie losowych kul wraz z ich prezentacją na planszy
+		- [1.5p] zralizowanie zachowania kuli (przemieszczanie wraz z szarym śladem (patrz film z l.3), zaznaczanie, odznaczanie itd.)
+	lekcja 3:
+		- [1p] preview kul + ich dodawanie w losowych miejscach na planszę
+		- [1.5p] odpowiedni preview ścieżki po najechaniu na pole (bez lagowań)
+	lekcja 4:
+		- [1.5p] zbijanie minimum pięciu kul we wszystkich kierunkach wraz z "przecięciami"
+		- [1p] punkty (każda zbita kula - 1p) + zakończenie np. informacja o uzyskanych punktach/czasie gry itp.
+		
+Przykładowe oceny:
+	- zrobione: od strony działania 4p, od strony kodu 70% => 4*0.7 = 2.8p
+	- zrobione: od strony działania 5p, od strony kodu 50% => 4*0.5 = 2.5p
+	- zrobione: od strony działania 10p, od strony kodu 100% => 10*1 = 10p
+	- zrobione: od strony działania 10p, od strony kodu 0% => 10*0 = 0p
